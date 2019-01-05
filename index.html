@@ -1,0 +1,499 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>SmartSpeech</title>
+    <meta charSet="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Professional Speech Assessment for Your Child, Delivered in 24hrs">
+    <meta property="og:image" content="">
+    <link rel="shortcut icon" href="https://www.launchaco.com/static/favicon.ico" />
+
+
+    <link rel="stylesheet" href="https://www.launchaco.com/static/AllTemplates.min.css">
+
+    <style>
+      .launchaco-promo {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      cursor: pointer;
+      width: 0;
+      height: 0;
+      z-index: 999999;
+    }
+    .launchaco-promo__active {
+      width: initial;
+      height: initial;
+    }
+    .launchaco-promo-speechbubble {
+      font-family: -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+      position: absolute;
+      left: 50px;
+      top: -11px;
+      padding: 9px;
+      color: white;
+      border-radius: 3px;
+      background: linear-gradient(#227ef7, #1290fc);
+      font-size: 14px;
+      font-weight: 600;
+      width: 93px;
+      box-sizing: border-box;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .15s ease-in-out;
+    }
+    .launchaco-promo__active:hover .launchaco-promo-speechbubble {
+      opacity: 1;
+    }
+    .launchaco-promo svg {
+      transition: all .3s ease-in-out;
+      opacity: 0;
+    }
+    .launchaco-promo__active svg {
+      opacity: 1;
+    }
+    .launchaco-promo-speechbubble:before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      transform: rotate(45deg);
+      left: -4px;
+      bottom: 10px;
+      border-radius: 3px;
+      background: #1290fc;
+      z-index: 2;
+      position: absolute
+    }
+    .launchaco-promo__active .launchaco-promo-speechbubble__animate {
+      animation: popinpopup 3s linear forwards 0.1s;
+    }
+    @keyframes popinpopup {
+      0% {
+        opacity: 0;
+        transform: translate3d(0,3px,0)
+      }
+      7%,93% {
+        opacity: 1;
+        transform: translate3d(0,0,0)
+      }
+      100% {
+        opacity: 0;
+        transform: translate3d(0,-4px,0)
+      }
+    }
+    .launchaco-promo-animate:hover {
+      opacity: 1 !important;
+    }
+  </style>
+
+
+    <style>
+
+    </style>
+  </head>
+
+  <body class="font-neutral">
+    <div class="pink-accent background">
+      <div class="bg">
+        <div class="bg-image" style="background-image: url(&quot;https://cdn.launchaco.com/images/09d6dd2f-1238-4211-b275-2250f797d8b9.gif&quot;);"></div>
+        <!---->
+      </div>
+      <header class="header">
+        <div class="container-lrg">
+          <div class="flex col-12 spread"><a class="logo primary-color launchaco-builder-hoverable logo">SmartSpeech</a> <a href="mailto:" class="nav-link secondary-color mr0">Contact</a></div>
+        </div>
+      </header>
+      <section class="section">
+        <div class="container mb40">
+          <div class="col-12 text-center">
+            <h1 class="heading primary-color launchaco-builder-hoverable">Professional Speech Assessment for Your Child, Delivered in 24hrs</h1>
+            <h2 class="subheading secondary-color mt20 launchaco-builder-hoverable">Upload a video recording of your child's speech and receive an assessment by a qualified Speech &amp; Language Therapist within 24hrs.</h2>
+            <div class="mt40"><a href="https://specifiedby.typeform.com/to/Gb5dI9" target="_blank" class="button mobile-text-center mt10 launchaco-builder-hoverable mr10 mobile-text-center accent-bg primary-color"> <span> Start Assessment </span></a><a href="" target="_blank" class="button mobile-text-center mt10 launchaco-builder-hoverable"> <span> How Does It Work? </span></a></div>
+          </div>
+        </div>
+        <!---->
+      </section>
+    </div>
+    <section id="cta-1" class="section pink-white" sitemeta="[object Object]" activepage="Landing">
+      <!---->
+      <div class="container text-center">
+        <div class="col-12">
+          <h4 class="heading primary-color launchaco-builder-hoverable">Are You Concerned About Your Child's Speech?</h4>
+          <p class="paragraph mt20 secondary-color launchaco-builder-hoverable">Put your mind at ease with a quick and easy online speech assessment, report and advice, from a certified Speech and Language Therapist.</p>
+          <div class="mt40"><a href="" target="_blank" class="button mobile-text-center mt10 launchaco-builder-hoverable mobile-text-center accent-bg fill-white primary-color"><svg width="15" height="18" viewBox="0 0 15 18" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.55 9.543c-.02-2.232 1.827-3.317 1.912-3.368-1.046-1.525-2.668-1.733-3.238-1.75-1.361-.143-2.682.815-3.376.815-.708 0-1.776-.8-2.927-.777-1.482.022-2.868.88-3.628 2.212-1.569 2.716-.399 6.707 1.104 8.903.752 1.075 1.63 2.275 2.78 2.233 1.126-.046 1.546-.717 2.904-.717 1.345 0 1.74.717 2.912.69 1.208-.02 1.968-1.08 2.693-2.165.87-1.232 1.218-2.446 1.232-2.508-.029-.01-2.345-.894-2.368-3.568zM10.335 2.98c.605-.757 1.019-1.786.904-2.83-.876.038-1.971.605-2.602 1.345-.558.652-1.056 1.721-.927 2.726.983.074 1.993-.496 2.625-1.24z" fill-rule="nonzero"></path>
+              </svg> <span> Start Assessment </span></a></div>
+        </div>
+      </div>
+    </section>
+    <section id="faq-2" class="section pink-flat" sitemeta="[object Object]" activepage="Landing">
+      <div class="container">
+        <div class="col-12 text-center">
+          <h3 class="heading primary-color launchaco-builder-hoverable">
+            How Does it Work?
+          </h3>
+          <p class="subheading secondary-color mt20 launchaco-builder-hoverable">Have Your Child Assessed in 3 Easy Steps</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="col-12 mt40">
+          <div class="faq pad20"><b class="bold primary-color launchaco-builder-hoverable">
+              Step 1
+            </b>
+            <p class="paragraph secondary-color launchaco-builder-hoverable">
+              Complete our short online questionnaire
+            </p>
+          </div>
+          <div class="faq pad20"><b class="bold primary-color launchaco-builder-hoverable">
+              Step 2
+            </b>
+            <p class="paragraph secondary-color launchaco-builder-hoverable">
+              Upload a video recording of your child's speech, using our simple assessment guide &amp; instructions
+            </p>
+          </div>
+          <div class="faq pad20"><b class="bold primary-color launchaco-builder-hoverable">
+              Step 3
+            </b>
+            <p class="paragraph secondary-color launchaco-builder-hoverable">
+              Your child will be assessed and a report will be provided from a qualified speech and language therapist within 24hrs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="checklist-3" class="section avocado-accent" sitemeta="[object Object]" activepage="Landing">
+      <div class="container text-center mb75">
+        <div class="col-12">
+          <h3 class="heading primary-color launchaco-builder-hoverable">Why Choose SmartSpeech?</h3>
+          <p class="subheading secondary-color mt20 launchaco-builder-hoverable">Your Online Speech Assessment will be delivered by a fully qualified, experienced and highly trained Speech &amp; Language Therapist. </p>
+        </div>
+      </div>
+      <div class="container flex">
+        <ul class="checklist col-12">
+          <li class="checklist-item flex center-horizontal spread pad10 launchaco-builder-hoverable">
+            <p class="paragraph primary-color mr20">Licensed to practice through the Health and Care Professions Council</p> <svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="noshrink svg-fill">
+              <g transform="translate(4.000000, 5.000000)">
+                <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+              </g>
+            </svg>
+          </li>
+          <li class="checklist-item flex center-horizontal spread pad10 launchaco-builder-hoverable">
+            <p class="paragraph primary-color mr20">Members of the Royal College of Speech and Language Therapists</p> <svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="noshrink svg-fill">
+              <g transform="translate(4.000000, 5.000000)">
+                <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+              </g>
+            </svg>
+          </li>
+          <li class="checklist-item flex center-horizontal spread pad10 launchaco-builder-hoverable">
+            <p class="paragraph primary-color mr20">Specialising in Child Speech Sound Development</p> <svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="noshrink svg-fill">
+              <g transform="translate(4.000000, 5.000000)">
+                <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+              </g>
+            </svg>
+          </li>
+          <li class="checklist-item flex center-horizontal spread pad10 launchaco-builder-hoverable">
+            <p class="paragraph primary-color mr20">Peace of mind from having your child's speech assessed right away</p> <svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="noshrink svg-fill">
+              <g transform="translate(4.000000, 5.000000)">
+                <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+              </g>
+            </svg>
+          </li>
+          <li class="checklist-item flex center-horizontal spread pad10 launchaco-builder-hoverable">
+            <p class="paragraph primary-color mr20">Save up to x% on normal private therapist fees thanks to our innovative online process</p> <svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="noshrink svg-fill">
+              <g transform="translate(4.000000, 5.000000)">
+                <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+              </g>
+            </svg>
+          </li>
+        </ul>
+      </div>
+      <div class="container-lrg mt75">
+        <div class="col-12 launchaco-builder-hoverable">
+          <div class=""><img src="https://cdn.launchaco.com/images/9256d098-b6d7-4c1f-9a82-70a69c3db27f.png" alt="Screenshot of application" class="custom-img"></div>
+        </div>
+      </div>
+    </section>
+    <section id="faq-4" class="section purple-black" sitemeta="[object Object]" activepage="Landing">
+      <div class="container text-center">
+        <div class="col-12">
+          <h3 class="heading primary-color launchaco-builder-hoverable">
+            Frequently Asked Questions
+          </h3>
+          <!---->
+        </div>
+      </div>
+      <div class="container mt40">
+        <div class="col-12">
+          <div class="faq pad20"><input id="faq-dropdown-4-0" type="checkbox" name="faq" class="faq-input"> <label for="faq-dropdown-4-0" class="faq-label flex spread center-horizontal"><span class="bold primary-color mr20">Who are the therapists behind SmartSpeech?</span> <svg width="15px" height="9px" viewBox="0 0 15 9" version="1.1" xmlns="http://www.w3.org/2000/svg" class="noshrink svg-fill">
+                <path d="M7.4176407,5.65342711 L1.76421359,8.8817842e-16 L0.350000024,1.41421356 L6.00342714,7.06764068 L6,7.07106781 L7.41421356,8.48528137 L7.4176407,8.48185424 L7.42106784,8.48528137 L8.8352814,7.07106781 L8.83185426,7.06764068 L14.4852814,1.41421356 L13.0710678,8.8817842e-16 L7.4176407,5.65342711 Z"></path>
+              </svg></label>
+            <p class="paragraph secondary-color faq-content mt20 launchaco-builder-hoverable">
+              Your online speech assessment will be delivered by a fully qualified, experienced and certified Speech &amp; Language Therapist.
+            </p>
+          </div>
+          <div class="faq pad20"><input id="faq-dropdown-4-1" type="checkbox" name="faq" class="faq-input"> <label for="faq-dropdown-4-1" class="faq-label flex spread center-horizontal"><span class="bold primary-color mr20">Do I need to see a speech and language therapist face to face as well?</span> <svg width="15px" height="9px" viewBox="0 0 15 9" version="1.1" xmlns="http://www.w3.org/2000/svg" class="noshrink svg-fill">
+                <path d="M7.4176407,5.65342711 L1.76421359,8.8817842e-16 L0.350000024,1.41421356 L6.00342714,7.06764068 L6,7.07106781 L7.41421356,8.48528137 L7.4176407,8.48185424 L7.42106784,8.48528137 L8.8352814,7.07106781 L8.83185426,7.06764068 L14.4852814,1.41421356 L13.0710678,8.8817842e-16 L7.4176407,5.65342711 Z"></path>
+              </svg></label>
+            <p class="paragraph secondary-color faq-content mt20 launchaco-builder-hoverable">
+              This is an answer. This is an answer. This is an answer.
+            </p>
+          </div>
+          <div class="faq pad20"><input id="faq-dropdown-4-2" type="checkbox" name="faq" class="faq-input"> <label for="faq-dropdown-4-2" class="faq-label flex spread center-horizontal"><span class="bold primary-color mr20">How long will the assessment take?</span> <svg width="15px" height="9px" viewBox="0 0 15 9" version="1.1" xmlns="http://www.w3.org/2000/svg" class="noshrink svg-fill">
+                <path d="M7.4176407,5.65342711 L1.76421359,8.8817842e-16 L0.350000024,1.41421356 L6.00342714,7.06764068 L6,7.07106781 L7.41421356,8.48528137 L7.4176407,8.48185424 L7.42106784,8.48528137 L8.8352814,7.07106781 L8.83185426,7.06764068 L14.4852814,1.41421356 L13.0710678,8.8817842e-16 L7.4176407,5.65342711 Z"></path>
+              </svg></label>
+            <p class="paragraph secondary-color faq-content mt20 launchaco-builder-hoverable">
+              This is an answer. This is an answer. This is an answer.
+            </p>
+          </div>
+          <div class="faq pad20"><input id="faq-dropdown-4-3" type="checkbox" name="faq" class="faq-input"> <label for="faq-dropdown-4-3" class="faq-label flex spread center-horizontal"><span class="bold primary-color mr20">Can I share the report with other speech therapists, teachers and other professionals?</span> <svg width="15px" height="9px" viewBox="0 0 15 9" version="1.1" xmlns="http://www.w3.org/2000/svg" class="noshrink svg-fill">
+                <path d="M7.4176407,5.65342711 L1.76421359,8.8817842e-16 L0.350000024,1.41421356 L6.00342714,7.06764068 L6,7.07106781 L7.41421356,8.48528137 L7.4176407,8.48185424 L7.42106784,8.48528137 L8.8352814,7.07106781 L8.83185426,7.06764068 L14.4852814,1.41421356 L13.0710678,8.8817842e-16 L7.4176407,5.65342711 Z"></path>
+              </svg></label>
+            <p class="paragraph secondary-color faq-content mt20 launchaco-builder-hoverable">
+              This is an answer. This is an answer. This is an answer.
+            </p>
+          </div>
+          <div class="faq pad20"><input id="faq-dropdown-4-4" type="checkbox" name="faq" class="faq-input"> <label for="faq-dropdown-4-4" class="faq-label flex spread center-horizontal"><span class="bold primary-color mr20">What will I get in my report?</span> <svg width="15px" height="9px" viewBox="0 0 15 9" version="1.1" xmlns="http://www.w3.org/2000/svg" class="noshrink svg-fill">
+                <path d="M7.4176407,5.65342711 L1.76421359,8.8817842e-16 L0.350000024,1.41421356 L6.00342714,7.06764068 L6,7.07106781 L7.41421356,8.48528137 L7.4176407,8.48185424 L7.42106784,8.48528137 L8.8352814,7.07106781 L8.83185426,7.06764068 L14.4852814,1.41421356 L13.0710678,8.8817842e-16 L7.4176407,5.65342711 Z"></path>
+              </svg></label>
+            <p class="paragraph secondary-color faq-content mt20 launchaco-builder-hoverable">
+              This is an answer. This is an answer. This is an answer.
+            </p>
+          </div>
+          <div class="faq pad20"><input id="faq-dropdown-4-5" type="checkbox" name="faq" class="faq-input"> <label for="faq-dropdown-4-5" class="faq-label flex spread center-horizontal"><span class="bold primary-color mr20">What does the assessment involve?</span> <svg width="15px" height="9px" viewBox="0 0 15 9" version="1.1" xmlns="http://www.w3.org/2000/svg" class="noshrink svg-fill">
+                <path d="M7.4176407,5.65342711 L1.76421359,8.8817842e-16 L0.350000024,1.41421356 L6.00342714,7.06764068 L6,7.07106781 L7.41421356,8.48528137 L7.4176407,8.48185424 L7.42106784,8.48528137 L8.8352814,7.07106781 L8.83185426,7.06764068 L14.4852814,1.41421356 L13.0710678,8.8817842e-16 L7.4176407,5.65342711 Z"></path>
+              </svg></label>
+            <p class="paragraph secondary-color faq-content mt20 launchaco-builder-hoverable">
+              This is an answer. This is an answer. This is an answer.
+            </p>
+          </div>
+          <div class="faq pad20"><input id="faq-dropdown-4-6" type="checkbox" name="faq" class="faq-input"> <label for="faq-dropdown-4-6" class="faq-label flex spread center-horizontal"><span class="bold primary-color mr20">Do I need any special equipment?</span> <svg width="15px" height="9px" viewBox="0 0 15 9" version="1.1" xmlns="http://www.w3.org/2000/svg" class="noshrink svg-fill">
+                <path d="M7.4176407,5.65342711 L1.76421359,8.8817842e-16 L0.350000024,1.41421356 L6.00342714,7.06764068 L6,7.07106781 L7.41421356,8.48528137 L7.4176407,8.48185424 L7.42106784,8.48528137 L8.8352814,7.07106781 L8.83185426,7.06764068 L14.4852814,1.41421356 L13.0710678,8.8817842e-16 L7.4176407,5.65342711 Z"></path>
+              </svg></label>
+            <p class="paragraph secondary-color faq-content mt20 launchaco-builder-hoverable">
+              This is an answer. This is an answer. This is an answer.
+            </p>
+          </div>
+          <div class="faq pad20"><input id="faq-dropdown-4-7" type="checkbox" name="faq" class="faq-input"> <label for="faq-dropdown-4-7" class="faq-label flex spread center-horizontal"><span class="bold primary-color mr20">Will the information I share be safe &amp; secure?</span> <svg width="15px" height="9px" viewBox="0 0 15 9" version="1.1" xmlns="http://www.w3.org/2000/svg" class="noshrink svg-fill">
+                <path d="M7.4176407,5.65342711 L1.76421359,8.8817842e-16 L0.350000024,1.41421356 L6.00342714,7.06764068 L6,7.07106781 L7.41421356,8.48528137 L7.4176407,8.48185424 L7.42106784,8.48528137 L8.8352814,7.07106781 L8.83185426,7.06764068 L14.4852814,1.41421356 L13.0710678,8.8817842e-16 L7.4176407,5.65342711 Z"></path>
+              </svg></label>
+            <p class="paragraph secondary-color faq-content mt20 launchaco-builder-hoverable">
+              This is an answer. This is an answer. This is an answer.
+            </p>
+          </div>
+          <div class="faq pad20"><input id="faq-dropdown-4-8" type="checkbox" name="faq" class="faq-input"> <label for="faq-dropdown-4-8" class="faq-label flex spread center-horizontal"><span class="bold primary-color mr20">What if my child won't do the assessment?</span> <svg width="15px" height="9px" viewBox="0 0 15 9" version="1.1" xmlns="http://www.w3.org/2000/svg" class="noshrink svg-fill">
+                <path d="M7.4176407,5.65342711 L1.76421359,8.8817842e-16 L0.350000024,1.41421356 L6.00342714,7.06764068 L6,7.07106781 L7.41421356,8.48528137 L7.4176407,8.48185424 L7.42106784,8.48528137 L8.8352814,7.07106781 L8.83185426,7.06764068 L14.4852814,1.41421356 L13.0710678,8.8817842e-16 L7.4176407,5.65342711 Z"></path>
+              </svg></label>
+            <p class="paragraph secondary-color faq-content mt20 launchaco-builder-hoverable">
+              This is an answer. This is an answer. This is an answer.
+            </p>
+          </div>
+          <div class="faq pad20"><input id="faq-dropdown-4-9" type="checkbox" name="faq" class="faq-input"> <label for="faq-dropdown-4-9" class="faq-label flex spread center-horizontal"><span class="bold primary-color mr20">How much does an assessment cost?</span> <svg width="15px" height="9px" viewBox="0 0 15 9" version="1.1" xmlns="http://www.w3.org/2000/svg" class="noshrink svg-fill">
+                <path d="M7.4176407,5.65342711 L1.76421359,8.8817842e-16 L0.350000024,1.41421356 L6.00342714,7.06764068 L6,7.07106781 L7.41421356,8.48528137 L7.4176407,8.48185424 L7.42106784,8.48528137 L8.8352814,7.07106781 L8.83185426,7.06764068 L14.4852814,1.41421356 L13.0710678,8.8817842e-16 L7.4176407,5.65342711 Z"></path>
+              </svg></label>
+            <p class="paragraph secondary-color faq-content mt20 launchaco-builder-hoverable">
+              This is an answer. This is an answer. This is an answer.
+            </p>
+          </div>
+          <div class="faq pad20"><input id="faq-dropdown-4-10" type="checkbox" name="faq" class="faq-input"> <label for="faq-dropdown-4-10" class="faq-label flex spread center-horizontal"><span class="bold primary-color mr20">How do I pay for an assessment?</span> <svg width="15px" height="9px" viewBox="0 0 15 9" version="1.1" xmlns="http://www.w3.org/2000/svg" class="noshrink svg-fill">
+                <path d="M7.4176407,5.65342711 L1.76421359,8.8817842e-16 L0.350000024,1.41421356 L6.00342714,7.06764068 L6,7.07106781 L7.41421356,8.48528137 L7.4176407,8.48185424 L7.42106784,8.48528137 L8.8352814,7.07106781 L8.83185426,7.06764068 L14.4852814,1.41421356 L13.0710678,8.8817842e-16 L7.4176407,5.65342711 Z"></path>
+              </svg></label>
+            <p class="paragraph secondary-color faq-content mt20 launchaco-builder-hoverable">
+              This is an answer. This is an answer. This is an answer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="feature-5" class="section pink-white" sitemeta="[object Object]" activepage="Landing">
+      <div class="container-lrg flex">
+        <div class="col-4 text-center flex flex-column center-horizontal"><i class="icon mobile-center-icon secondary-bg launchaco-builder-hoverable"><svg class="svg-fill" viewBox="0 0 8 15" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.75 7.46c.247.117.305.378.12.593l-5.633 6.602c-.143.168-.209.123-.15-.087l1.395-5.034.03-.111a.373.373 0 0 0-.194-.425l-.103-.05-2.969-1.41C0 7.421-.06 7.16.122 6.944L5.694.327c.142-.169.21-.124.154.087L4.516 5.473l-.028.11a.374.374 0 0 0 .195.42l.102.049L7.75 7.46z"></path>
+            </svg></i>
+          <h3 class="bold primary-color launchaco-builder-hoverable">Fast &amp; Convenient</h3>
+          <p class="paragraph secondary-color launchaco-builder-hoverable">Have your child assessed quickly and without the hassle of arranging clinic or school visits.</p>
+        </div>
+        <div class="col-4 text-center flex flex-column center-horizontal"><i class="icon mobile-center-icon secondary-bg launchaco-builder-hoverable"><svg class="svg-fill" viewBox="0 0 21 23" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 0v11c0 4.625 5.438 12 10.5 12C15.563 23 21 15.625 21 11V0H0zm10.5 20C6.95 20 3 14.934 3 11.5v-8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1H4v7.5c0 2.894 3.55 7.5 6.5 7.5a.5.5 0 1 1 0 1z"></path>
+            </svg></i>
+          <h3 class="bold primary-color launchaco-builder-hoverable">Safe &amp; Secure</h3>
+          <p class="paragraph secondary-color launchaco-builder-hoverable">Details provided are safely &amp; securely stored, accessed only by Certified therapists &amp; deleted after use.</p>
+        </div>
+        <div class="col-4 text-center flex flex-column center-horizontal"><i class="icon mobile-center-icon secondary-bg launchaco-builder-hoverable"><svg class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+              <path d="M25 7.5v12a1.502 1.502 0 0 1-1.5 1.5h-18A1.502 1.502 0 0 1 4 19.5V19h18a1 1 0 0 0 1-1V6h.5A1.502 1.502 0 0 1 25 7.5zM20.5 18h-18A1.5 1.5 0 0 1 1 16.5v-12A1.5 1.5 0 0 1 2.5 3h18A1.5 1.5 0 0 1 22 4.5v12a1.5 1.5 0 0 1-1.5 1.5zM10 10V8h3.5a.5.5 0 0 0 0-1H12v-.5a.5.5 0 0 0-1 0V7h-1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h3v2H9.5a.5.5 0 0 0 0 1H11v.5a.5.5 0 0 0 1 0V14h1a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1z"></path>
+            </svg></i>
+          <h3 class="bold primary-color launchaco-builder-hoverable">Affordable</h3>
+          <p class="paragraph secondary-color launchaco-builder-hoverable">Our innovative online approach keeps costs low in comparison to traditional private therapy.</p>
+        </div>
+      </div>
+      <!---->
+    </section>
+    <section id="pricing-6" class="section pink-accent" sitemeta="[object Object]" activepage="Landing">
+      <div class="container mb75 text-center">
+        <div class="col-12">
+          <h4 class="heading primary-color launchaco-builder-hoverable">Pricing</h4>
+          <p class="paragraph secondary-color launchaco-builder-hoverable">Once you've completed the assessment form and uploaded your video, you can pick from the following packages:</p>
+        </div>
+      </div>
+      <div class="container-lrg">
+        <div class="col-12">
+          <div class="card flex mobile-flex-wrap">
+            <div class="col-4 pad30 flex flex-column spread launchaco-builder-hoverable">
+              <div class="mb20">
+                <h4 class="bold primary-color">Assessment</h4> <b class="heading primary-color">£89</b> <span class="paragraph secondary-color"></span>
+                <ul class="mt20">
+                  <li class="flex mb20"><svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-fill noshrink mr20">
+                      <g transform="translate(4.000000, 5.000000)">
+                        <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+                      </g>
+                    </svg> <span class="span secondary-color">Initial Assessment</span></li>
+                  <li class="flex mb20"><svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-fill noshrink mr20">
+                      <g transform="translate(4.000000, 5.000000)">
+                        <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+                      </g>
+                    </svg> <span class="span secondary-color">Results &amp; Diagnosis report</span></li>
+                  <li class="flex mb20"><svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-fill noshrink mr20">
+                      <g transform="translate(4.000000, 5.000000)">
+                        <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+                      </g>
+                    </svg> <span class="span secondary-color">Recommended Next Steps</span></li>
+                </ul>
+              </div> <a href="" target="_blank" class="button mobile-text-center mt10 launchaco-builder-hoverable button__full mobile-text-center accent-bg primary-color"> <span> Start Assessment </span></a>
+            </div>
+            <div class="col-4 pad30 flex flex-column spread launchaco-builder-hoverable">
+              <div class="mb20">
+                <h4 class="bold primary-color">Consultation</h4> <b class="heading primary-color">£139</b> <span class="paragraph secondary-color"></span>
+                <ul class="mt20">
+                  <li class="flex mb20"><svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-fill noshrink mr20">
+                      <g transform="translate(4.000000, 5.000000)">
+                        <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+                      </g>
+                    </svg> <span class="span secondary-color">Initial Assessment</span></li>
+                  <li class="flex mb20"><svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-fill noshrink mr20">
+                      <g transform="translate(4.000000, 5.000000)">
+                        <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+                      </g>
+                    </svg> <span class="span secondary-color">Results &amp; Diagnosis report</span></li>
+                  <li class="flex mb20"><svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-fill noshrink mr20">
+                      <g transform="translate(4.000000, 5.000000)">
+                        <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+                      </g>
+                    </svg> <span class="span secondary-color">30min Consultation Call</span></li>
+                  <li class="flex mb20"><svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-fill noshrink mr20">
+                      <g transform="translate(4.000000, 5.000000)">
+                        <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+                      </g>
+                    </svg> <span class="span secondary-color">Recommended Next Steps</span></li>
+                </ul>
+              </div> <a href="http://placeholderlink" target="_blank" class="button mobile-text-center mt10 launchaco-builder-hoverable button__full mobile-text-center accent-bg primary-color"> <span> Start Assessment </span></a>
+            </div>
+            <div class="col-4 pad30 flex flex-column spread launchaco-builder-hoverable">
+              <div class="mb20">
+                <h4 class="bold primary-color">Action Plan</h4> <b class="heading primary-color">£199</b> <span class="paragraph secondary-color"></span>
+                <ul class="mt20">
+                  <li class="flex mb20"><svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-fill noshrink mr20">
+                      <g transform="translate(4.000000, 5.000000)">
+                        <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+                      </g>
+                    </svg> <span class="span secondary-color">Initial Assessment</span></li>
+                  <li class="flex mb20"><svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-fill noshrink mr20">
+                      <g transform="translate(4.000000, 5.000000)">
+                        <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+                      </g>
+                    </svg> <span class="span secondary-color">Results &amp; Diagnosis report</span></li>
+                  <li class="flex mb20"><svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-fill noshrink mr20">
+                      <g transform="translate(4.000000, 5.000000)">
+                        <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+                      </g>
+                    </svg> <span class="span secondary-color">1hr Consultation Call</span></li>
+                  <li class="flex mb20"><svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-fill noshrink mr20">
+                      <g transform="translate(4.000000, 5.000000)">
+                        <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+                      </g>
+                    </svg> <span class="span secondary-color">Home Treatment Plan</span></li>
+                  <li class="flex mb20"><svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-fill noshrink mr20">
+                      <g transform="translate(4.000000, 5.000000)">
+                        <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+                      </g>
+                    </svg> <span class="span secondary-color">Progress Check In &amp; Support Call</span></li>
+                </ul>
+              </div> <a href="http://placeholderlink" target="_blank" class="button mobile-text-center mt10 launchaco-builder-hoverable button__full mobile-text-center accent-bg primary-color"> <span> Start Assessment </span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="cta-7" class="section pink-white" sitemeta="[object Object]" activepage="Landing">
+      <!---->
+      <div class="container text-center">
+        <div class="col-12">
+          <h4 class="heading-lrg primary-color launchaco-builder-hoverable">Download a Sample Report</h4>
+          <p class="paragraph mt20 secondary-color mt20 launchaco-builder-hoverable">If you'd like to see a sample report, as provided by our qualified speech and language therapist, please enter your email address below</p>
+          <div class="mt40">
+            <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate" class="container-sml mailchimp flex mb20"><input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Your Email Address" required="required" class="mailchimp-input mobile-text-center">
+              <div aria-hidden="true" style="position: absolute; left: -5000px;"><input type="text" name="b_3198ee66c8baf4d60aa2fee6b_d60e1830e8" tabindex="-1" value=""></div> <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="white-color button no-max-width accent-bg primary-color" value="placeholder">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer-8" class="section text-center black-black" sitemeta="[object Object]" activepage="Landing">
+      <div class="container col-12">
+        <!---->
+        <div>
+          <!----><a href="mailto:darren@specifiedby.com" class="socialicons accent-bg email"></a></div>
+        <!---->
+      </div>
+    </footer>
+
+    <a id="visual-dreamer" class="launchaco-promo" target="_blank" href="https://www.launchaco.com/">
+      <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient x1="9.394%" y1="57.704%" x2="105.69%" y2="27.607%" id="a">
+            <stop stop-color="#007FFF" offset="0%" />
+            <stop stop-color="#1290FC" offset="100%" />
+          </linearGradient>
+          <linearGradient x1="50%" y1="0%" x2="50%" y2="137.557%" id="b">
+            <stop stop-color="#FF9386" offset="0%" />
+            <stop stop-color="#FF5F86" offset="100%" />
+          </linearGradient>
+          <linearGradient x1="30.817%" y1="-31.6%" x2="63.808%" y2="151.297%" id="c">
+            <stop stop-color="#D7EDFF" offset="0%" />
+            <stop stop-color="#FFF" stop-opacity="0" offset="100%" />
+          </linearGradient>
+        </defs>
+        <g fill="none">
+          <circle fill="url(#a)" cx="19.832" cy="19.832" r="19.832" />
+          <path d="M26.616.325l4.308 12.587-4.669-.315L26.218.388c0-.105.091-.19.204-.191.088 0 .166.051.194.128z" fill="url(#b)" transform="rotate(45 28.571 6.555)" />
+          <path d="M32.031 35.658c-6.164 2.721-12.745-4.33-11.992-10.011 2.617.782 4.626.997 7.904 2.01 2.34.769 4.152.479 5.386-1.13 1.234-1.607 1.316-3.502 0-5.158-4.826-5.49 0 0-10.516-12.264l2.923-2.95C.117 4.123 5.302 32.333 6.903 35.095c4.01 3.54 14.11 8.709 25.128.563z" fill="#FFF" />
+          <path d="M9.782 19.176l-.034-.016c0 5.76 4.425 21.794 22.185 16.378-6.148 2.716-12.71-4.29-12.006-9.97a7.394 7.394 0 0 1-2.73.519c-3.922 0-7.135-3.047-7.415-6.911z" fill="url(#c)" />
+          <ellipse fill="#354158" cx="22.185" cy="14.958" rx="2.017" ry="1.849" />
+          <ellipse fill="#354158" cx="22.185" cy="14.958" rx="2.017" ry="1.849" />
+        </g>
+      </svg>
+      <div class="launchaco-promo-speechbubble launchaco-promo-speechbubble__animate">Built With Launchaco</div>
+      <div class="launchaco-promo-speechbubble">Built With Launchaco</div>
+    </a>
+  </body>
+
+  <script>
+    window.onscroll = function()
+    {
+      showAd()
+    }
+
+    function showAd()
+    {
+      var scrollBarPosition = window.pageYOffset | document.body.scrollTop;
+
+      // At specifiv position do what you want
+      if (scrollBarPosition > 300)
+      {
+        document.getElementById("visual-dreamer").className = "launchaco-promo launchaco-promo__active";
+        window.onscroll = function() {};
+      }
+    }
+  </script>
+
+</html>
