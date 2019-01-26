@@ -1,10 +1,5 @@
 # mod_rewrite starts here
 
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-d          # is not directory
-RewriteCond %{REQUEST_FILENAME}\.html -f     # is an existing html file
-RewriteRule ^(.*)$ $1.html                   # rewrite index to index.html
-
 # Redirects domain.com/file.html to domain.com/file
 RewriteCond %{REQUEST_FILENAME} !-d          # is not directory
 RewriteCond %{REQUEST_FILENAME}\.html -f     # is an existing html file
