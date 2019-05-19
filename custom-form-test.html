@@ -253,7 +253,7 @@
 
 <div class="form-group">
     <label style="font-size: 20px; font-weight: bold;" for="age-bracket">Which age bracket does your child fall into?</label>
-    <select class="form-control" id="age-bracket" required>
+    <select class="form-control form-check-input" id="age-bracket" required>
       <option name="age-bracket" value="">Pick an option</option>
       <option name="age-bracket" value="Under 2 years old">Under 2 years old</option>
       <option name="age-bracket" value="2 - 2.5 years old">2 - 2.5 years old</option>
@@ -606,7 +606,7 @@
 
 <div class="form-group">
     <label style="font-size: 20px; font-weight: bold;" for="relationship">What is your relationship to the child to be assessed?</label>
-    <select class="form-control" id="relationship" required>
+    <select class="form-control form-check-input" id="relationship" required>
       <option name="relationship" value="">Pick an option</option>
       <option name="relationship" value="Parent">Parent</option>
       <option name="relationship" value="Grandparent">Grandparent</option>
@@ -633,7 +633,7 @@
   <div class="form-group">
     <label style="font-size: 20px; font-weight: bold;" for="email">Please provide your email address:</label>
 <small id="concern-help" class="form-text text-muted">We will use this to contact you with our advice and recommended on next steps</small>
-    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+    <input name="email" value="" type="email" class="form-control" id="email" placeholder="name@example.com" required>
   </div>
 
   <!-- end email -->
@@ -644,13 +644,13 @@
   <label style="font-size: 20px; font-weight: bold;" for="exampleFormControlInput1">By submitting this form, you confirm that you are the primary care giver and have legal authority to act on behalf of your child:</label>
 
 <div class="form-check">
-  <input class="form-check-input" type="radio" name="legal-authority" id="legalauthority1" value="option1" required>
+  <input class="form-check-input" type="radio" name="legal-authority" id="legalauthority1" value="I Accept" required>
   <label class="form-check-label" for="legalauthority1">
     I Accept
   </label>
 </div>
 <div class="form-check">
-  <input class="form-check-input" type="radio" name="legal-authority" id="legalauthority2" value="option2" required>
+  <input class="form-check-input" type="radio" name="legal-authority" id="legalauthority2" value="I Do Not Accept" required>
   <label class="form-check-label" for="legalauthority2">
     I Do Not Accept
   </label>
