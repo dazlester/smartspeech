@@ -130,7 +130,7 @@
         <div class="row">
           <div class="col">
             
-            <form action="https://getform.io/f/8f750521-8f35-485e-99a1-fe902144a90b" method="POST">
+            <form action="https://sheetdb.io/api/v1/0pautt8hotcl2" method="POST" id="sheetdb-form">
         <!--<input name="_redirect" type="hidden" id="redirect" value="https://speechassessments.co.uk/thank-you-form">-->
 
         <input type="hidden" name="hidden-field" value="mable" />
@@ -761,6 +761,22 @@
 <button class="btn btn-primary btn-lg btn-block" type="submit">Submit Form</button>
 
 </form>
+
+<script>
+  var form = document.getElementById('sheetdb-form');
+  form.addEventListener("submit", e => {
+    e.preventDefault();
+    fetch(form.action, {
+        method : "POST",
+        body: new FormData(document.getElementById("sheetdb-form")),
+    }).then(
+        response => response.json()
+    ).then((html) => {
+      // you can put any JS code here
+      window.location.href = 'https://speechassessments.co.uk/thank-you-form'
+    });
+  });
+</script>
             
 
 
