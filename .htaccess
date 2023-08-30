@@ -11,4 +11,4 @@ RewriteRule (.*)\.html$ /$1 [R=301,L]
 
 
 Redirect 301 /assessment-form.html https://www.speechassessments.co.uk/online-screener
-Redirect 301 /therapists.html https://speechassessments.co.uk/speech-therapy-jobs
+Redirect 301 /therapists https://speechassessments.co.uk/speech-therapy-jobs
