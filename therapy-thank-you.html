@@ -17,6 +17,15 @@
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-K7ZCJDL');</script>
+
+    <!-- Sends amount value to event -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        'event': 'purchase',
+        'purchaseAmount': '59'
+      });
+    </script>
     <!-- End Google Tag Manager -->
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
