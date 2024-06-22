@@ -23,8 +23,19 @@
       window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({
         'event': 'purchase',
-        'purchaseAmount': 59
+        'transaction_id': 'static_order_003',  // Static transaction ID
+        'value': 59.00,
+        'currency': 'GBP',
+        'items': [
+          {
+            'item_id': 'static_call_003',  // Static item ID
+            'item_name': 'Speech Therapy Call',
+            'quantity': 1,
+            'price': 59.00
+          }
+        ]
       });
+    </script>
     </script>
     <!-- End Google Tag Manager -->
     
