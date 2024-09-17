@@ -1,3 +1,15 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^https://speechassessments.co.uk [NC]
-RewriteRule ^(.*)$ https://www.saltroad.com/smartspeech [L,R=301]
+# mod_rewrite starts here
+
+# Redirects domain.com/file.html to domain.com/file
+RewriteCond %{REQUEST_FILENAME} !-d          # is not directory
+RewriteCond %{REQUEST_FILENAME}\.html -f     # is an existing html file
+RewriteCond %{REQUEST_URI} ^(.+)\.html$      # request URI ends with .html
+RewriteRule (.*)\.html$ /$1 [R=301,L]        # redirect from index.html to index
+
+RewriteCond %{THE_REQUEST} ^[A-Z]+\ (/[^\ ]*)\.html[?\ ]
+RewriteRule (.*)\.html$ /$1 [R=301,L]
+
+
+Redirect 301 /assessment-form.html https://www.speechassessments.co.uk/online-screener
+
+Redirect 301 /therapists.html https://www.speechassessments.co.uk/speech-therapy-jobs
